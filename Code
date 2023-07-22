@@ -3,3 +3,34 @@ print(name)
 
 for i in range(0,8):
   print(i*i)
+  
+class Engineer:
+        
+  skill = "problem Solver"
+  
+  def __init__(self, name, type, years):
+    self.name = name
+    self.type = type
+    self.years = years
+
+  def getName(self):
+    return self.name
+
+  def getType(self):
+    return self.type
+
+  def getYears(self):
+    return self.years
+    
+  
+engineer1 = Engineer("Sam", "Mechanical", 10)
+engineer2 = Engineer("Mark", "Electrical", 5)
+
+
+
+print(engineer1.getName() + ", " + engineer1.getType()+ " Engineer with " + str(engineer1.getYears()) + " years experience")
+
+print(engineer2.getName() + ", " + engineer2.getType()+ " Engineer with " + str(engineer2.getYears()) + " years experience")
+
+name = name [::-1] 
+print(name)
