@@ -1,0 +1,5 @@
+name = "Lachlan"
+print(name)
+
+for i in range(0,8):
+  print(i*i)
